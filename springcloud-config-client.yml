@@ -16,9 +16,9 @@ eureka:
 server:
   port: 8202
 spring:
-  profiles: dev
+  profiles: test
   application:
-    name: sprincloud-config-dev
+    name: sprincloud-config-test
 eureka:
   client:
     service-url:
