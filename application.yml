@@ -1,0 +1,14 @@
+spring:
+  profiles:
+  active: dev
+---
+spring:
+  profiles: dev
+  application:
+    name: sprincloud-config-dev
+--- 
+spring:
+  profiles: test
+  application:
+    name: sprincloud-config-test
+#请保存为UTF-8格式
